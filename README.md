@@ -1,20 +1,42 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Vida Digital - Immersive Tech Store
 
-This contains everything you need to run your app locally.
+Landing page for Vida Digital (Ibarra, Ecuador) with animated hero, services, stats, brands marquee, and contact section.
 
-View your app in AI Studio: https://ai.studio/apps/temp/2
+## Features
+- Animated hero with particle canvas and parallax motion
+- Smooth section navigation from the navbar
+- Services cards with motion and hover effects
+- Brands marquee loop with continuous scroll
+- Stats counters and contact footer
 
-## Run Locally
+## Tech Stack
+- React 19 + Vite
+- Tailwind via CDN config in `index.html`
+- Framer Motion for animations
+- Lucide icons
 
-**Prerequisites:**  Node.js
-
-
+## Getting Started
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the dev server:
    `npm run dev`
+
+## Scripts
+- `npm run dev` - start dev server
+- `npm run build` - build for production
+- `npm run preview` - preview the production build
+
+## Project Structure
+- `index.html` - Tailwind config, global styles
+- `index.tsx` - app entry
+- `App.tsx` - main layout and sections
+- `components/` - UI sections (Hero, About, Services, Stats, Brands, Footer)
+- `constants.ts` - shared content and data
+
+## Notes
+- Navbar links to external store for "Productos" and "Tienda".
+- Section anchors use smooth scrolling and scroll offset.
