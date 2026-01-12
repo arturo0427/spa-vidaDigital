@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
         this.vx = (Math.random() - 0.5) * 0.5; // Slow drift
         this.vy = (Math.random() - 0.5) * 0.5;
         this.size = Math.random() * 2 + 1;
-        // Brand orange or tech gray
+
         this.color =
           Math.random() > 0.9 ? "#F26522" : "rgba(100, 100, 100, 0.5)";
       }
@@ -50,7 +50,6 @@ const Hero: React.FC = () => {
         this.x += this.vx;
         this.y += this.vy;
 
-        // Wrap around screen
         if (this.x < 0) this.x = width;
         if (this.x > width) this.x = 0;
         if (this.y < 0) this.y = height;
@@ -78,12 +77,10 @@ const Hero: React.FC = () => {
       if (!ctx) return;
       ctx.clearRect(0, 0, width, height);
 
-      // Connect particles
       for (let i = 0; i < particles.length; i++) {
         particles[i].update();
         particles[i].draw();
 
-        // Connect to other particles
         for (let j = i + 1; j < particles.length; j++) {
           const dx = particles[i].x - particles[j].x;
           const dy = particles[i].y - particles[j].y;
@@ -92,7 +89,7 @@ const Hero: React.FC = () => {
           if (distance < 120) {
             ctx.beginPath();
             const opacity = 1 - distance / 120;
-            // If one of the particles is orange, make the line orange-tinted
+
             const isOrange =
               particles[i].color === "#F26522" ||
               particles[j].color === "#F26522";
@@ -106,7 +103,6 @@ const Hero: React.FC = () => {
           }
         }
 
-        // Connect to mouse
         const dx = mouse.x - particles[i].x;
         const dy = mouse.y - particles[i].y;
         const distMouse = Math.sqrt(dx * dx + dy * dy);
