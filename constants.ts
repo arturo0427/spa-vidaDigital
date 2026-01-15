@@ -8,16 +8,23 @@ import {
   Users,
 } from "lucide-react";
 
+// export const NAV_LINKS = [
+//   { name: "Inicio", href: "#hero" },
+//   { name: "Nosotros", href: "#about" },
+//   { name: "Servicios", href: "#services" },
+//   { name: "Productos", href: "https://tienda.vidadigitalec.com/" },
+//   { name: "Contacto", href: "#contact" },
+// ];
 export const NAV_LINKS = [
   { name: "Inicio", href: "#hero" },
   { name: "Nosotros", href: "#about" },
   { name: "Servicios", href: "#services" },
-  { name: "Productos", href: "https://tienda.vidadigitalec.com/" },
+  { name: "Productos", href: "" },
   { name: "Contacto", href: "#contact" },
 ];
 
 export const HERO_CONTENT = {
-  title: "VIDA DIGITAL",
+  title: "DIGITAL",
   subtitle: "Soluciones Tecnológicas de Alto Nivel",
   description:
     "Especialistas en PC Gamers, Laptops de alto rendimiento y Servicio Técnico certificado en Ibarra, Ecuador.",
@@ -73,12 +80,21 @@ export const BRANDS = [
   "Nvidia",
 ];
 
+// export const CONTACT_INFO = {
+//   phone: "+593 98 323 2624",
+//   email: "vidadigitalibarra@outlook.com",
+//   address: "Hernán Gonzáles de Saa 5-29 y Jacinto Egas, Ibarra, Ecuador",
+//   whatsapp: "https://wa.me/593983232624",
+//   facebook: "https://www.facebook.com/vidadigitalibarrra",
+//   tiktok: "https://www.tiktok.com/@vidadigitalec",
+//   instagram: "https://www.instagram.com/vidadigital_ec",
+// };
 export const CONTACT_INFO = {
-  phone: "+593 98 323 2624",
-  email: "vidadigitalibarra@outlook.com",
-  address: "Hernán Gonzáles de Saa 5-29 y Jacinto Egas, Ibarra, Ecuador",
-  whatsapp: "https://wa.me/593983232624",
-  facebook: "https://www.facebook.com/vidadigitalibarrra",
-  tiktok: "https://www.tiktok.com/@vidadigitalec",
-  instagram: "https://www.instagram.com/vidadigital_ec",
+  phone: "+593 99 999 9999",
+  email: "example@outlook.com",
+  address: "Street 1, City, Country",
+  whatsapp: "",
+  facebook: "",
+  tiktok: "",
+  instagram: "",
 };

@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               href="#"
               className="text-3xl font-display font-bold text-white tracking-wider mb-8 inline-block"
             >
-              <span className="text-brand-primary">VIDA</span>DIGITAL
+              <span className="text-brand-primary">LANDING</span>PAGE
             </a>
             <p className="text-brand-text mb-10 max-w-md leading-relaxed font-light">
               Tu aliado estratégico en tecnología de alto nivel. Visítanos en
@@ -112,13 +112,13 @@ const Footer: React.FC = () => {
           {/* Map */}
           <div className="h-[450px] w-full bg-brand-surface rounded-[2px] overflow-hidden shadow-2xl border border-brand-border group">
             <iframe
-              src="https://maps.google.com/maps?q=Vida%20Digital%20Ibarra&t=m&z=15&output=embed&iwloc=near"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.308263486257!2d-78.1526317247632!3d0.3510039362016349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcb1234567890ab%3A0xcdef1234567890ab!2sVida%20Digital%20Ecuador!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
-              title="Ubicación Vida Digital"
+              // title="Ubicación Vida Digital"
               className="grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
             ></iframe>
           </div>

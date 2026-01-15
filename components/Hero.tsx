@@ -189,9 +189,9 @@ const Hero: React.FC = () => {
             Innovación Desde 2010
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-black text-white mb-6 drop-shadow-2xl leading-tight [text-shadow:0_0_14px_rgba(255,255,255,0.25)]">
-            VIDA{" "}
+            LANDING
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-[#B33F00] [text-shadow:0_0_14px_rgba(242,101,34,0.45)]">
-              DIGITAL
+              PAGE
             </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10 font-sans font-light leading-relaxed tracking-wide drop-shadow-lg">
