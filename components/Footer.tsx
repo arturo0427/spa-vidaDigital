@@ -126,7 +126,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-brand-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-brand-text text-sm font-light">
-            © {new Date().getFullYear()} Vida Digital Ecuador. Todos los
+            © {new Date().getFullYear()} Landig Page Ecuador. Todos los
             derechos reservados.
           </p>
           <p className="text-brand-text text-xs uppercase tracking-widest opacity-70">
